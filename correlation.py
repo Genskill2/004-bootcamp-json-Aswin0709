@@ -8,4 +8,5 @@ def load_journal():
 	for i in data:
 		ret.append(i)
 	f.close()
-	print (ret) 
+	return ret
+	
